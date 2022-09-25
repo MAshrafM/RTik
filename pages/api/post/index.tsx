@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { client } from '../../utils/client'
-import { allPostQuery } from '../../utils/queries'
+import { client } from '../../../utils/client'
+import { allPostQuery } from '../../../utils/queries'
 type Data = {
   name: string
 }
